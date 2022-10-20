@@ -14,4 +14,10 @@ def main(a,b,c):
         return b
     if c>b and c>a:
         return c
-print(main(3,3,5))
+    if a==b>c:
+        return a
+    if b==c>a:
+        return b
+    if c==b:
+        return c
+print(main(3,3,-1))

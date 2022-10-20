@@ -16,8 +16,5 @@ def main(a,b,c):
         return c
     if a==b>c:
         return a
-    if b==c>a:
-        return b
-    if c==b:
-        return c
-print(main(3,3,-1))
+
+print(main(5,5,2))

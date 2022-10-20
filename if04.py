@@ -11,4 +11,6 @@ def main(a,b):
         return 0
     if a>b:
         return a
-print(main(5,3)) 
+    if a<b:
+        return b
+print(main(5,7)) 

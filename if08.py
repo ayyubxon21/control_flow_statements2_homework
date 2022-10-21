@@ -23,11 +23,10 @@ def main(number):
     elif number==4:
         return "Thursday"
     elif number==5:
-        return "Firday"
+        return "Friday"
     elif number==6:
         return "Saturday"
     elif number==7:
         return "Sunday"
-    else:
-        return 0
+    
 print(main(7))
